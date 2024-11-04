@@ -1187,6 +1187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Annotatable Screen
       objectReference: {fileID: 0}
+    - target: {fileID: 3259285889726014655, guid: 5713b959e3c77a58fb258133fc8e4aef, type: 3}
+      propertyPath: _fitMode
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -1313,7 +1317,6 @@ GameObject:
   - component: {fileID: 1064799461}
   - component: {fileID: 1064799468}
   - component: {fileID: 1064799470}
-  - component: {fileID: 1064799471}
   m_Layer: 0
   m_Name: Solution
   m_TagString: Untagged
@@ -1387,18 +1390,6 @@ MonoBehaviour:
   - {fileID: 297876275}
   - {fileID: 951960842}
   - {fileID: 521793279}
---- !u!114 &1064799471
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1064799459}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e0975698871960149a3bba9f16edc2fb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1121790822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7122998149913795416, guid: c5718abb85ffb3840bf0e4c4cfc279b7, type: 3}
@@ -2604,6 +2595,10 @@ PrefabInstance:
     - target: {fileID: 8571076842338426133, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571076842583978906, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8571076843237194833, guid: 140d1d2c406167c50819d89f86d9092e, type: 3}
       propertyPath: _baseRunner

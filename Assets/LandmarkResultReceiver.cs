@@ -57,9 +57,9 @@ public class LandmarkResultReceiver : MonoBehaviour
             for (int i = 0; i < spheres.Length && i < result.handLandmarks[0].landmarks.Count; i++)
             {
                 Vector3 landmarkPosition = new Vector3(
-                    result.handLandmarks[0].landmarks[i].x * 5,    // Scale factor for Unity's 3D space
-                    -result.handLandmarks[0].landmarks[i].y * 5,   // Invert Y for Unity's coordinate system
-                    result.handLandmarks[0].landmarks[i].z * 5     // Scale factor for depth
+                    - result.handWorldLandmarks[0].landmarks[i].x * 5,    // Scale factor for Unity's 3D space
+                    -result.handWorldLandmarks[0].landmarks[i].y * 5,   // Invert Y for Unity's coordinate system
+                    result.handWorldLandmarks[0].landmarks[i].z * 5     // Scale factor for depth
                 );
 
                 spheres[i].transform.position = landmarkPosition;
